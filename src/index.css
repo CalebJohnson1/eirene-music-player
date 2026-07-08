@@ -9,3 +9,59 @@ button:hover {
     cursor: pointer;
     scale: 1.05;
 }
+
+/* input[type=range] {
+    appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    overflow: hidden;
+    width: 100px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 100vw;
+}
+
+input[type=range]::webkit-slider-thumb {
+    width: 0;
+    height: 0;
+    border: none;
+    background: transparent;
+}
+
+input[type=range]::moz-range-track {
+    height: 10px;
+    background: #FFFFFF;
+}
+
+input[type=range]::-moz-range-progress {
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 100vw;
+}
+
+input[type=range]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border: none;
+    background: transparent;
+}
+
+input[type=range]::-ms-track {
+    width: 100px;
+    height: 6px;
+    background: #FFFFFF;
+    color: transparent;
+}   
+
+input[type=range]::-ms-thumb {
+    width: 0;
+    height: 0;
+    border: none;
+    background: transparent;
+}
+*/

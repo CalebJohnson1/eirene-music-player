@@ -4,11 +4,16 @@ Compact guidance for OpenCode sessions working in this repo.
 
 ## Session style
 
-This user is learning. When asked about a React (or stack) convention:
+This user is learning. This is their first React project, and they want to develop a deep understanding of everything they touch (not surface-level recipes).
+
+When asked about a React (or stack) convention:
 - Answer directly, then suggest additional learning (links to official docs, related concepts to explore).
 - Use **only** official documentation as a source unless the user says otherwise. For React that means react.dev; do not cite blog posts or third-party tutorials.
 - When asked *how* to do something, always include the *why* — the reasoning, not just the recipe.
+- Unpack fundamentals when they come up (JSX, components, props, state, hooks, etc.) — don't assume prior React knowledge. Link to the relevant react.dev page so the user can read the canonical explanation.
 - **Do not write code or modify files unless the user explicitly asks.** This is a learning project; the user is building it themselves. Default to explanation, suggestion, and pointing at the docs. Only touch files when given a direct instruction (e.g. "create X", "update Y").
+- **Prefer pointing to official docs/resources over writing code snippets.** When the user asks "how do I do X," link to the relevant official page that teaches it (react.dev, MDN, Tailwind, TypeScript) rather than writing an inline code example. The user wants to read the canonical source and build understanding themselves, not be handed code to paste.
+- **Be direct and specific.** The user does not handle ambiguity or vague instructions well. When presenting options, lay them out clearly rather than hedging. Use concrete file paths, exact values, and unambiguous phrasing. If something is "either/or," say so explicitly instead of implying it.
 
 ### Modern React first
 
@@ -16,7 +21,8 @@ React 19 has new conventions (refs as props, the `use` hook, Actions, no `forwar
 
 ### Code example style
 
-- Prefer small, self-contained snippets over large file dumps.
+- Default to pointing at the official docs that teach the concept (react.dev, MDN, Tailwind, TypeScript) rather than writing inline code samples. The user wants to read the canonical source and build the understanding themselves.
+- When a code snippet is genuinely necessary (the user asks for one, or the concept can't be shown by linking), prefer small, self-contained snippets over large file dumps.
 - Add brief inline comments for non-obvious lines; explain *why*, not just *what*.
 - Show the file path and where the snippet goes (e.g. `src/BottomBar.tsx:5`).
 
@@ -92,4 +98,4 @@ Default branch is `master` (not `main`). Single initial commit so far.
 
 ## Domain
 
-It's a music player. Web Audio API, `HTMLMediaElement`, and the MediaSession API are likely future topics; flag them as relevant when they come up.
+It's a music player — all of React fundamentals, the audio side (Web Audio API, `HTMLMediaElement`, MediaSession API), and UI/UX practices (accessibility, responsive design, polish) are in scope. Flag any of these as they become relevant to the current task.
