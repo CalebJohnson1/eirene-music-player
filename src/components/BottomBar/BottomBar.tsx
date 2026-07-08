@@ -11,8 +11,8 @@ import Volumes from './Volumes.tsx'
 
 export default function BottomBar() {
   return (
-    <div id="bottomBar" className="fixed bottom-0 w-screen h-30 bg-[#001526] border-[#ffffff] border">
-      <div id="albumCover" className="fixed bottom-0 w-30 h-30 border-[#ffffff] border">
+    <div id="bottomBar" className="fixed bottom-0 w-screen h-30 bg-[#001526] border-white border">
+      <div id="albumCover" className="fixed bottom-0 w-30 h-30 border-white border">
         <AlbumCover />
       </div>
 
