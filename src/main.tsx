@@ -6,6 +6,7 @@ import SideBar from './components/SideBars/SideBar.tsx'
 import LargeCover from './components/LargeCover/LargeCover.tsx'
 import Settings from './components/Settings/Settings.tsx'
 import DarkLightModes from './components/Settings/DarkLightModes.tsx'
+import FileSelector from './components/Settings/FileSelector.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
       <LargeCover />
       <DarkLightModes />
       <Settings />
+      <FileSelector />
     </>
   </StrictMode>,
 )
