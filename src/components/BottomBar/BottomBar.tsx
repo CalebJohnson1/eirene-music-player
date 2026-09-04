@@ -23,7 +23,7 @@ export default function BottomBar() {
 
       <div className='h-30 w-screen flex justify-center items-end p-3.5 gap-1'>
         <PreviousIcon />
-        <PlayIcon />
+        <PlayIcon / >
         <NextIcon />
         <ShuffleIcon />
       </div>
